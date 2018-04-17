@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="fb login ">
+  <test name="fb Test">
+  <parameter name="browser" value="FF"></parameter>
+  <parameter name="url" value="https://en-gb.facebook.com/login/"></parameter>
+  <parameter name="email" value="babuyadav@gmail.com"></parameter>
+  
+     <classes>
+      <class name="com.selenium.testng.datadrivenaproches.ParameterDataDriven"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
